@@ -34,7 +34,7 @@
 <nav>
 	<a href="patientViewRecord.php" class="btn btn-info btn-large">View Patient Record</a>
 	<a href="outstandingCases.php" class="btn btn-large">Outstanding Cases</a>
-	<a href="wardList.php" class="btn btn-large btn-warning">Ward List</a>
+	<!--<a href="wardList.php" class="btn btn-large btn-warning">Ward List</a>-->
 	<a href="#" class="btn btn-primary btn-large">Add New Patient</a>
 </nav><br>
 <div>

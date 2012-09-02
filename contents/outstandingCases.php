@@ -31,24 +31,24 @@
 ?>
 	<table>
 		<tr>
-			<th>UR</th><th>Surname</th><th>First Name</th><th>Age</th><th>Diagnosis</th><th>Side</th><th>Site</th><th>Plan Operation</th><th>Plan Date</th><th>Plan Time</th><th>Plan Surg</th><th>Plan Reg</th><th></th>
+			<th>UR</th><!--<th>Surname</th><th>First Name</th>--><th>Age</th><th>Diagnosis</th><th>Side</th><th>Site</th><th>Plan Operation</th><th>Plan Date</th><th>Plan Time</th><th>Plan Surg</th><th>Plan Reg</th><th></th>
 		</tr>
 <?php
 	if(@mysql_num_rows($sql) < 1){
 ?>
 	<tr>
-		<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+		<td></td><!--<td></td><td></td>--><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
 	</tr>
 	<tr>
-		<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+		<td></td><!--<td></td><td></td>--><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
 	</tr>
 <?php
 	} else {
 		while($row = mysql_fetch_assoc($sql)){
 			echo "<tr>";
 			echo "<td>" . $row['URNumber'] . "</td>";
-			echo "<td>" . $row['Surname'] . "</td>";
-			echo "<td>" . $row['FirstName'] . "</td>";
+			echo "<!--<td>" . /*$row['Surname'] . */"</td>-->";
+			echo "<!--<td>" . /*$row['FirstName'] . */"</td>-->";
 			echo "<td>" . age(date("Y-m-d", strtotime($row['DOB']))) . "</td>";
 			echo "<td>" . $row['Diagnos'] . "</td>";
 			echo "<td>" . $row['Sid'] . "</td>";

@@ -31,7 +31,7 @@
 	<a href="../patientViewRecord.php" class="btn btn-info btn-large">View Patient Record</a>
 	<a href="../outstandingCases.php" class="btn btn-large">Outstanding Cases</a>
 	<a href="../taskList.php" class="btn btn-large btn-inverse">Tasks</a>
-	<a href="../wardList.php" class="btn btn-large btn-warning">Ward List</a>
+	<!--<a href="../wardList.php" class="btn btn-large btn-warning">Ward List</a>-->
 </nav><br>
 
 <form id="patient" action="redirect.php" method="post" class="well">
@@ -61,7 +61,7 @@
 			while($row = mysql_fetch_assoc($sql)){
 				echo "UR #: <span class='badge badge-info'>".$row['URNumber']."</span> 
 						Age: <span class='badge badge-info'>".age($row['DOB'])."</span><br>
-						Name: <span class='badge badge-info'>".$row['Surname']." ".$row['FirstName']."</span><br>
+						<!--Name: <span class='badge badge-info'>".$row['Surname']." ".$row['FirstName']."</span><br>-->
 						Diagnosis: <span class='badge badge-info'>" . $row['Diagnos'] . "</span>
 						 Site: <span class='badge badge-info'>" . $row['Sit'] . "</span> 
 						 Side: <span class='badge badge-info'>".$row['Sid']."</span>"
@@ -86,7 +86,7 @@
 		<div id="buttonsBar">
 			<input type="submit" value="Save changes + <?php echo "\r"; ?>return to record" name="savePlanProcAndReturn" class="btn btn-success span2">
 			<input type="submit" value="Save changes + <?php echo "\r"; ?>go to tasklist" name="savePlanGoToTask" class="btn btn-warning span2">
-			<input type="submit" value="Convert to<?php echo "\r"; ?>completed<?php echo "\r"; ?>procedure" name="convToComplProc" class="btn btn-danger span2">
+			<!--<input type="submit" value="Convert to<?php echo "\r"; ?>completed<?php echo "\r"; ?>procedure" name="convToComplProc" class="btn btn-danger span2">-->
 	<?php
 			}
 		}

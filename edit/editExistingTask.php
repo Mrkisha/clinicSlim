@@ -71,7 +71,7 @@
 	<a href="../patientViewRecord.php" class="btn btn-info btn-large">View Patient Record</a>
 	<a href="../outstandingCases.php" class="btn btn-large">Outstanding Cases</a>
 	<a href="../taskList.php" class="btn btn-large btn-inverse">Tasks</a>
-	<a href="../wardList.php" class="btn btn-large btn-warning">Ward List</a>
+	<!--<a href="../wardList.php" class="btn btn-large btn-warning">Ward List</a>-->
 </nav><br>
 <div>
 	<form action="redirect.php" method="post" class="well">
@@ -79,7 +79,7 @@
 		
 			echo "UR #: <span class='badge badge-info'>".$URNumber."</span> 
 							Age: <span class='badge badge-info'>".age($DOB)."</span><br>
-							Name: <span class='badge badge-info'>".$Surname." ".$FirstName."</span>";
+							<!--Name: <span class='badge badge-info'>".$Surname." ".$FirstName."</span>-->";
 			
 			//echo $patient_data['URNumber']." ".age($patient_data['DOB'])." Yrs<br>".$patient_data['Surname'].", ".$patient_data['FirstName'];
 		

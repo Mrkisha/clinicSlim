@@ -45,8 +45,8 @@
 			if($row['TaskComplete'] == '0'){ $highlight = 'highlight';} else { $highlight = '';};
 			echo "<tr class='{$highlight}'>";
 			echo "<td>" . $row['URNumber'] . "</td>";
-			echo "<td>" . $row['Surname'] . "</td>";
-			echo "<td>" . $row['FirstName'] . "</td>";
+			echo "<td>" . /*$row['Surname'] . */"</td>";
+			echo "<td>" . /*$row['FirstName'] . */"</td>";
 			echo "<td width='220'>" . $row['Task'] . "</td>";
 			echo "<td>" . $row['staffInit'] . "</td>";
 			echo "<td>" . ($row['TaskComplete'] == 1 ? 'Yes' : 'No') . "</td>";

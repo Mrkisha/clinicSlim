@@ -73,12 +73,6 @@
 				urNoPatient: {
 					required: true
 				},
-				surname: {
-					required: true
-				},
-				fistname: {
-					required: true
-				},
 				dob: {
 					required: true
 				},

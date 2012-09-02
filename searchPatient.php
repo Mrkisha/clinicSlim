@@ -60,7 +60,7 @@
 		while($row = mysql_fetch_assoc($sql)){
 			echo "<tr>";
 			echo "	<td>{$row['URNumber']}</td>
-					<td>".$row['Surname']." ".$row['FirstName']."</td>
+					<td>"./*$row['Surname']." ".$row['FirstName']."*/"</td>
 					<td>{$row['DOB']}</td>
 					<td>{$row['Gend']}</td>
 					<td>

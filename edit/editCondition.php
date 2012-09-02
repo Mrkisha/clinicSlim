@@ -30,7 +30,7 @@
 	<a href="../patientViewRecord.php" class="btn btn-info btn-large">View Patient Record</a>
 	<a href="../outstandingCases.php" class="btn btn-large">Outstanding Cases</a>
 	<a href="../taskList.php" class="btn btn-large btn-inverse">Tasks</a>
-	<a href="../wardList.php" class="btn btn-large btn-warning">Ward List</a>
+	<!--<a href="../wardList.php" class="btn btn-large btn-warning">Ward List</a>-->
 </nav><br>
 
 <form id="patient" action="redirect.php" method="post" class="well">
@@ -57,7 +57,7 @@
 		<div id="buttonsBar">
 			<input type="submit" value="Save changes, go <?php echo "\r"; ?>to patient record" class="btn btn-success span2" name="saveChangesGoPatientRec">
 			<input type="submit" value="Save changes + <?php echo "\r"; ?>add planned <?php echo "\r"; ?>procedure" class="btn btn-warning span2" name="saveChangesAddProcedure">
-			<input type="submit" value="Save changes + <?php echo "\r"; ?>add completed <?php echo "\r"; ?>procedure" class="btn btn-danger span2" name="saveChangesCompletedProcedure">
+			<!--<input type="submit" value="Save changes + <?php echo "\r"; ?>add completed <?php echo "\r"; ?>procedure" class="btn btn-danger span2" name="saveChangesCompletedProcedure">-->
 		<?php
 				}
 			}

@@ -33,7 +33,7 @@
 	<a href="../patientViewRecord.php" class="btn btn-info btn-large">View Patient Record</a>
 	<a href="../outstandingCases.php" class="btn btn-large">Outstanding Cases</a>
 	<a href="../taskList.php" class="btn btn-large btn-inverse">Tasks</a>
-	<a href="../wardList.php" class="btn btn-large btn-warning">Ward List</a>	
+	<!--<a href="../wardList.php" class="btn btn-large btn-warning">Ward List</a>	-->
 </nav><br>
 <div>
 	<form action="redirect.php" method="post" class="well">
@@ -50,7 +50,7 @@
 			foreach($row as $key => $value){
 				$patient_data[$key] = $value;
 			}
-			echo $patient_data['URNumber']." ".age($patient_data['DOB'])." Yrs<br>".$patient_data['Surname'].", ".$patient_data['FirstName'];
+			//echo $patient_data['URNumber']." ".age($patient_data['DOB'])." Yrs<br>".$patient_data['Surname'].", ".$patient_data['FirstName'];
 ?>
 		<br>
 		<label>Date</label><input id="taskDate" type="text" name="dateTask" class="span4"><br>

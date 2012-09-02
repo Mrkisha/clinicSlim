@@ -105,7 +105,7 @@
 <nav>
 	<a href="outstandingCases.php" class="btn btn-large">Outstanding Cases</a>
 	<a href="taskList.php" class="btn btn-large btn-inverse">Tasks</a>
-	<a href="wardList.php" class="btn btn-large btn-warning">Ward List</a>
+	<!--<a href="wardList.php" class="btn btn-large btn-warning">Ward List</a>-->
 	<a href="edit/addPatient.php" class="btn btn-primary btn-large">Add New Patient</a>
 </nav><br>
 
@@ -124,8 +124,8 @@
 	<fieldset class="well span11">
 		<div class="span5">
 			<label class="span2">UR No.&nbsp;</label><input id="urn" type="text" name="urNoPatient" value="<?php echo $urNo; ?>" class="span3"/><br>
-			<label class="span2">Surname&nbsp;</label><input type="text" name="surname" value="<?php echo $surname; ?>" class="span3"/><br>
-			<label class="span2">First Name&nbsp;</label><input type="text" name="fistname" value="<?php echo $firstName; ?>"/>
+			/*<label class="span2">Surname&nbsp;</label><input type="text" name="surname" value="<?php //echo $surname; ?>" class="span3"/><br>
+			<label class="span2">First Name&nbsp;</label><input type="text" name="fistname" value="<?php //echo $firstName; ?>"/>*/
 			<div class="oneLine"><label class="span1 control-label" id="dob">D.O.B&nbsp;</label><input type="text" name="dob" value="<?php echo $dob; ?>" class="span2"/></div>
 			<div class="oneLine"><label class="span1 control-label" id="age">Age&nbsp;</label><input type="text" name="age" value="<?php echo $age; ?>" disabled="disabled" class="span1"/></div>
 			<div class="oneLine"><label class="span1 control-label" id="sex">Sex&nbsp;</label><?php echo gender(); ?></div>
@@ -169,15 +169,15 @@
 		</div>
 </fieldset>
 
-<fieldset class="well span11">
+<!--<fieldset class="well span11">
 	<form action="edit/redirect.php" method="post">
 		<input class="btn disabled span2" value="Admission Details: ">
 		<input type="submit" name="addNewAdmission" value="Add admission" class="span2 btn btn-success">
 	</form>
 	<div class="tableBackground">
-		<?php include('contents/admission.php'); ?>
+		<?php //include('contents/admission.php'); ?>
 	</div>
-</fieldset>
+</fieldset>-->
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
